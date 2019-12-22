@@ -1,6 +1,8 @@
 # Word of the Day
 
 Get the word of the day from various sources
+Current supported sources:
+https://www.merriam-webster.com/word-of-the-day
 
 ### Installation
 
