@@ -14,6 +14,7 @@ class WordOfTheDay():
         soup = BeautifulSoup(html, features="html.parser")
         self.string = soup.h1.string
 
+
 if __name__ == "__main__":
     word = WordOfTheDay()
     print(word.string)

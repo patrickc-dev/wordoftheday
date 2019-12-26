@@ -1,1 +1,0 @@
-from .WordOfTheDay import WordOfTheDay
