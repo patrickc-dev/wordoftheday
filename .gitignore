@@ -1,5 +1,7 @@
 .vscode/
 dist/
 build/
+wordoftheday.egg-info/
 *.pyc
 *.ipynb
+
