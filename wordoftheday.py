@@ -3,11 +3,11 @@ import requests
 from bs4 import BeautifulSoup
 
 
-class WordOfTheDay():
+class load():
 
-    def __init__(self):
+    def __init__(self, date=''):
 
-        self.url = 'https://www.merriam-webster.com/word-of-the-day'
+        self.url = 'https://www.merriam-webster.com/word-of-the-day/' + date
         resp = requests.get(self.url)
         html = resp.content
 
@@ -16,6 +16,6 @@ class WordOfTheDay():
 
 
 if __name__ == "__main__":
-    word = WordOfTheDay()
+    word = load()
     print(word.string)
     print(word.url)

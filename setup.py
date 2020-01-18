@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="wordoftheday",
-    version="0.0.1",
+    version="0.0.2",
     author="Patrick C",
     author_email="52078333+patrickc-dev@users.noreply.github.com",
     description="get the word of the day from various sources",

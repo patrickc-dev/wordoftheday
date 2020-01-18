@@ -14,7 +14,7 @@ pip install wordoftheday
 ### Example Usage
 
 ```python
-from wotd import WordOfTheDay
-word = WordOfTheDay()
+import wordoftheday
+word = wordoftheday.load()
 print(word.string)
 ```
